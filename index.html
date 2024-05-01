@@ -1,21 +1,52 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Orbitron&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans:wght@800&family=Orbitron&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="card">
-            <img class="avatar" src="images/profile-pic.jpg">
-            <div class="info-container">
-                <div class="personal-info-container line-spacing dotted-border">
-                    <h3>Minh Hung Pham</h3>
-                    <p>CS Student from Vietnam</p>
-                    <h4>Graz, Austria</h4>
+        <div class="hero">
+            <h1 id="intro-heading"><span id="our-word">Our</span> <span id="website-word">Website</span></h1>
+            <div id="cards-holder">
+                <div class="card-container">
+                    <h2 class="president-heading arvo-bold">President</h2>
+                    <div class="card president-card">
+                        <img class="avatar president-avatar" src="images/profile-pic.jpg">
+                        <div class="info-container">
+                            <div class="personal-info-container">
+                                <h3>Minh Hung Pham</h3>
+                                <p>CS Student from Vietnam</p>
+                                <h4>Graz, Austria</h4>
+                            </div>
+                            <div class="contact-container">
+                                <h3 style="text-decoration: underline #90E0EF">CONTACTS:</h3>
+                                <h4>Tel: +43-676-9631-988</h4>
+                                <h4>E-mail: wk.minhhungs@gmail.com</h4>
+                            </div>    
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-container  line-spacing dotted-border">
-                    <h3 style="text-decoration: underline #90E0EF">CONTACTS:</h3>
-                    <h4>Tel: +43-676-9631-988</h4>
-                    <h4>E-mail: wk.minhhungs@gmail.com</h4>
-                </div>    
+                <div class="card-container">
+                    <h2 class="vice-president-heading arvo-bold">Vice President</h2>
+                    <div class="card vice-president-card">
+                        <img class="avatar vice-president-avatar" src="images/vice-president-avatar.jpg">
+                        <div class="info-container">
+                            <div class="personal-info-container">
+                                <h3>Ngoc Khue Anh Nguyen</h3>
+                                <p>BI Student from Vietnam</p>
+                                <h4>Kassel, Germany</h4>
+                            </div>
+                            <div class="contact-container">
+                                <h3 style="text-decoration: underline #ff9ebb">CONTACTS:</h3>
+                                <h4>Tel: +49-152-3583-1398</h4>
+                                <h4>E-mail: khueanh@gmail.com</h4>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
